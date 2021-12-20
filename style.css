@@ -1,0 +1,140 @@
+body{
+    font-family: Outfit;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 26px;
+    color: #FFFFFF;;
+    background: #0D192C;
+  }
+
+  h1{
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 28px;
+    position: absolute;
+    left: 6.86%;
+    right: 6.86%;
+    top: 58.72%;
+    bottom: 36.58%;
+  }
+  p{
+    color: #8BACD9;
+  }
+  span{
+    color: #FFFFFF;
+  }
+  p.paragraph1{
+    position: absolute;
+    height: 52px;
+    width: 302px;
+    left: 24px;
+    top: 394px;
+    border-radius: nullpx; 
+    color: #8BACD9;
+  }
+ 
+/*  Containers */
+  .container {
+    position: absolute;
+    width: 350px;
+    height: 596px;
+    left: 545px;
+    top: 152px;
+    background: #15263F;
+    box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.0952917);
+    border-radius: 15px;
+  }
+  .img-container{
+    position: absolute;
+    left: 6.86%;
+    right: 6.86%;
+    top: 4.03%;
+    bottom: 45.3%;
+    border-radius: 8px;
+  }
+  .group3{
+    position: absolute;
+    height: 20px;
+    width: 301px;
+    left: 24px;
+    top: 470px;
+    border-radius: 0px;
+  }
+  .group4{
+    height: 20px;
+    width: 301px;
+    left: 24px;
+    top: 470px;
+    border-radius: 0px;
+  }
+  .group5{
+    position: absolute;
+    height: 33px;
+    width: 230px;
+    left: 24px;
+    top: 531px;
+    border-radius: 0px;    
+  }
+
+ /* Images */
+  img[src*=image-equilibrium]{
+    height: 302px;
+    width: 302px;
+  }
+  img[src*=icon-clock]{
+    position: absolute;
+    height: 16px;
+    width: 16px;
+    left: 203.30499267578125px;
+    top: 2.67388916015625px;
+    border-radius: 0px;    
+  }
+  img[src*=icon-ethereum]{
+    position: absolute;
+    width: 11px;
+    height: 18px;
+    left: 0%;
+    right: 88.23%;
+    top: 5%;
+    bottom: 5%;
+  }
+  img[src*=image-avatar]{
+    height: 33px;
+    width: 33px;
+    left: 24px;
+    top: 531px;
+    border-radius: 0px;
+    
+  }
+
+  .time{
+    position: absolute;
+    height: 20px;
+    width: 73px;
+    left: 227px;
+    top: 0px;
+    border-radius: nullpx;    
+    font-size: 16px;
+    line-height: 20px;
+    color: #8BACD9;
+  }
+  .info{
+    left: 20.86%;
+    right: 27.43%;
+    /* top: 90.1%;
+    bottom: 6.54%; */
+
+  }
+  #ethereum{
+    position: absolute;
+    height: 20px;
+    left: 18.7%;
+    right: 1.07%;
+    top: calc(50% - 20px/2);
+    color: #00FFF8;
+  }
+  .attribution { font-size: 11px; text-align: center; }
+  .attribution a { color: hsl(228, 45%, 44%); }
+ 
+  
