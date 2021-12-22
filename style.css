@@ -1,5 +1,5 @@
 body{
-    font-family: Outfit;
+    font-family: 'Outfit', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
@@ -19,6 +19,8 @@ body{
     bottom: 36.58%;
   }
   p{
+    font-weight: 300;
+    font-size: 18px;
     color: #8BACD9;
   }
   span{
@@ -32,6 +34,16 @@ body{
     top: 394px;
     border-radius: nullpx; 
     color: #8BACD9;
+  }
+  hr{
+    position: relative;
+    height: 1px;
+    width: 302px;
+    top: 510px;
+    border-radius: 0px;
+    background: #2E405A;
+    border-color: #2E405A;
+    
   }
  
 /*  Containers */
@@ -54,21 +66,30 @@ body{
     border-radius: 8px;
   }
   .group3{
-    position: absolute;
     height: 20px;
     width: 301px;
-    left: 24px;
-    top: 470px;
-    border-radius: 0px;
+    position: absolute;
+    left: 6.86%;
+    right: 7.14%;
+    top: 78.86%;
+    bottom: 17.79%;
+    margin-top: 15px;
   }
   .group4{
     height: 20px;
     width: 301px;
-    left: 24px;
-    top: 470px;
-    border-radius: 0px;
+    position: absolute;
+    left: 0%;
+    right: 68.94%;
+    top: 0%;
+    bottom: 0%;
+
   }
   .group5{
+    height: 20px;
+    width: 301px;
+  }
+  .group6{
     position: absolute;
     height: 33px;
     width: 230px;
@@ -81,6 +102,7 @@ body{
   img[src*=image-equilibrium]{
     height: 302px;
     width: 302px;
+    border-radius: 8px;
   }
   img[src*=icon-clock]{
     position: absolute;
@@ -100,39 +122,60 @@ body{
     bottom: 5%;
   }
   img[src*=image-avatar]{
+    position: relative;
     height: 33px;
     width: 33px;
-    left: 24px;
-    top: 531px;
-    border-radius: 0px;
+    bottom: -5px;
+    border-radius: 20px;
+    border-color: white;
+    background-color: #FFFFFF;
+    padding: 1.5px;
     
   }
 
   .time{
-    position: absolute;
     height: 20px;
     width: 73px;
-    left: 227px;
-    top: 0px;
-    border-radius: nullpx;    
+    position: relative;
+    left: 75%;
+    bottom: 70%;
     font-size: 16px;
     line-height: 20px;
     color: #8BACD9;
   }
   .info{
-    left: 20.86%;
-    right: 27.43%;
-    /* top: 90.1%;
-    bottom: 6.54%; */
+    position: relative;
+    left: 25%;
+    bottom: 150%;
 
   }
   #ethereum{
-    position: absolute;
+    font-weight: 400;
     height: 20px;
-    left: 18.7%;
-    right: 1.07%;
-    top: calc(50% - 20px/2);
+    position: relative;
+    left: 6%;
+    bottom: 100%;
     color: #00FFF8;
+  }
+  .eye{
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 43%;
+    top: 43%;
+    opacity: 0%;
+  }
+  .img-container :hover{
+    background-color: #00FFF8;
+    /* mix-blend-mode: normal; */
+    opacity: 0.5;
+    border-radius: 8px;
+  }
+  body,html{
+    height: 900px;
+    width: 1440px;
+   
+    
   }
   .attribution { font-size: 11px; text-align: center; }
   .attribution a { color: hsl(228, 45%, 44%); }
