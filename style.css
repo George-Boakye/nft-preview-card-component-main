@@ -1,11 +1,10 @@
+/* TYPOGRAPHY */
 body{
     font-family: 'Outfit', sans-serif;
-    font-style: normal;
-    font-weight: normal;
     font-size: 18px;
     line-height: 26px;
     color: #FFFFFF;;
-    background: #0D192C;
+    background: hsl(217, 54%, 11%);
   }
 
   h1{
@@ -46,18 +45,20 @@ body{
     
   }
  
-/*  Containers */
+/*  Container layouts*/
   .container {
     position: absolute;
     width: 350px;
     height: 596px;
     left: 545px;
-    top: 152px;
-    background: #15263F;
+    top: 90px;
+    background: hsl(216, 50%, 16%);
     box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.0952917);
     border-radius: 15px;
   }
-  .img-container{
+  .card_image{
+    height: 302px;
+    width: 302px;
     position: absolute;
     left: 6.86%;
     right: 6.86%;
@@ -75,7 +76,7 @@ body{
     bottom: 17.79%;
     margin-top: 15px;
   }
-  .group4{
+  .card_price{
     height: 20px;
     width: 301px;
     position: absolute;
@@ -85,11 +86,11 @@ body{
     bottom: 0%;
 
   }
-  .group5{
+  .card_countdown{
     height: 20px;
     width: 301px;
   }
-  .group6{
+  .card_footer{
     position: absolute;
     height: 33px;
     width: 230px;
@@ -133,7 +134,7 @@ body{
     
   }
 
-  .time{
+  .duration{
     height: 20px;
     width: 73px;
     position: relative;
@@ -143,7 +144,7 @@ body{
     line-height: 20px;
     color: #8BACD9;
   }
-  .info{
+  .author{
     position: relative;
     left: 25%;
     bottom: 150%;
@@ -165,19 +166,68 @@ body{
     top: 43%;
     opacity: 0%;
   }
-  .img-container :hover{
-    background-color: #00FFF8;
-    /* mix-blend-mode: normal; */
-    opacity: 0.5;
+  /* Active states*/
+  .img-container::before{
+    height: 302px;
+    width: 302px;
+    position: absolute;
+    left: 0%;
+    right: 6.86%;
+    top: 0%;
+    bottom: 45.3%;
+    content: "";
     border-radius: 8px;
+    background-color: #00FFF8;
+    opacity: 0;
   }
-  body,html{
-    height: 900px;
-    width: 1440px;
-   
+  .img-container:hover::before{
+    opacity: 0.5;
+  }
+  .img-container::after{
+    position: absolute;
+    content: url("/images/icon-view.svg");
+    width: 48px;
+    height: 48px;
+    left: 43%;
+    top: 43%;
+    opacity: 0;
+  }
+  .img-container:hover::after{
+    opacity: 1;
+  }
+  .img-container,h1:hover{
+    color: #00FFF8;
+    cursor: pointer;
+  }
+  span:hover{
+    color: #00FFF8;
+    cursor: pointer;
+  }
+  
+  .attribution {
+    position: absolute;
+     font-size: 11px; 
+     text-align: center;
+     bottom: 0;
+     right: 5%;
+     left: 0%;
+     }
+  .attribution a { color: hsl(228, 45%, 44%); }
+
+  
+  @media screen and (max-width: 375px){
+    body{
+      position: absolute;
+      left: 0%;
+      top: -450px;
+      border-radius: 0px;
+      background: #1c59bb;
+    }
+    .container{
+      float: left;
+      width: 327px;
+      
+    }
     
   }
-  .attribution { font-size: 11px; text-align: center; }
-  .attribution a { color: hsl(228, 45%, 44%); }
- 
   
