@@ -167,7 +167,7 @@ body{
     opacity: 0%;
   }
   /* Active states*/
-  .img-container::before{
+  .card_image::before{
     height: 302px;
     width: 302px;
     position: absolute;
@@ -180,10 +180,10 @@ body{
     background-color: #00FFF8;
     opacity: 0;
   }
-  .img-container:hover::before{
+  .card_image:hover::before{
     opacity: 0.5;
   }
-  .img-container::after{
+  .card_image::after{
     position: absolute;
     content: url("/images/icon-view.svg");
     width: 48px;
@@ -192,10 +192,10 @@ body{
     top: 43%;
     opacity: 0;
   }
-  .img-container:hover::after{
+  .card_image:hover::after{
     opacity: 1;
   }
-  .img-container,h1:hover{
+  .card_image,h1:hover{
     color: #00FFF8;
     cursor: pointer;
   }
