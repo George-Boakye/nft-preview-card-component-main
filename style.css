@@ -185,7 +185,7 @@ body{
   }
   .card_image::after{
     position: absolute;
-    content: url("/images/icon-view.svg");
+    content: url("./images/icon-view.svg");
     width: 48px;
     height: 48px;
     left: 43%;
