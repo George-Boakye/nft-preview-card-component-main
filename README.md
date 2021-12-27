@@ -25,9 +25,7 @@ Users should be able to:
 - See hover states for interactive elements
 
 ### Screenshot
-```html
-<img src ="./design/nft-screenshot.png">
-```
+[](./design/nft-screenshot.png)
 ### Links
 
 - Solution URL: [github](https://github.com/Mistok98/nft-preview-card-component-main)
