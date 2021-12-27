@@ -9,7 +9,6 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
   - [Screenshot](#screenshot)
   - [Links](#links)
   - [Built with](#built-with)
-  - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
@@ -29,19 +28,15 @@ Users should be able to:
 ### Links
 
 - Solution URL: [github](https://github.com/Mistok98/nft-preview-card-component-main)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
-- Flexbox
 - CSS Grid
+- CSS positions
 - Mobile-first workflow
 
-
-### Continued development
-Still working on the responsiveness of the website. As I am not completely familiar with the concept
 
 ### Useful resources
 
